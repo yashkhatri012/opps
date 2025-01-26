@@ -14,3 +14,9 @@
 
 from proj import chatbook
 user1 =chatbook()
+
+#print(user1._chatbook__name)
+print(user1.id)
+user2 =chatbook()
+
+print(user2.id)

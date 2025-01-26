@@ -1,9 +1,13 @@
 class chatbook:
+    __userid=0
     def __init__(self):
+        self.__name='default user'
+        self.id =chatbook.__userid
+        chatbook.__userid+=1
         self.username= ''
         self.password=''
         self.loggedin= False
-        self.menu()
+        #self.menu()
     
     def menu(self):
         user_input = input("""Welcome to chatbook, How would you like to procced?
